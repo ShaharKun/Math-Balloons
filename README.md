@@ -25,7 +25,7 @@ The grid stores the image as an array of shape (28, 28), and can then export the
 That the model requires.
 
 ### Player
-This is  the small man walking under the balloons and catches them as they fall.
+This is  the small man walking under the balloons, catching them as they fall.
 It adds no necessary value to the game, although it makes the game more playable, and interesting.
 
 ### Scoring
@@ -40,7 +40,9 @@ A 'Game' object is firstly initialized in the 'run.py' file.
 ## Model
 The built-in model was trained with keras version 2.2.4-tf.
 If you wish to use a different version of keras, retrain the model on your machine using 'AI/model_creator.py'.
+You can see the built-in model's structure and layers in 'model_creator.py'.
 The model is called to make predictions within the 'Grid.py' file, and expects an input image of shape (24, 24, 1).
+When making your own model for this game, make sure to keep input shape and dtype settings that are preset in 'model_craetor.py'.
 
 
 > The model is not perfect, and might make mistakes over time.
