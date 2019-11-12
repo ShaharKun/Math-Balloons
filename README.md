@@ -4,6 +4,8 @@ Built with the turtle module, tensorflow, and keras.
 
 ## Requirements
 - Python 3
+- Turtle (preinstalled with the python base library)
+- Tensorflow
 - keras 2.2.4 (see 'model')
 
 ## How to run
