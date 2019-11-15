@@ -46,5 +46,3 @@ The model is called to make predictions within the 'Grid.py' file, and expects a
 
 > The model is not perfect, and might make mistakes over time.
 > Try drawing as clearly as possible, and use as much of your drawing space as you can.
-
-##### Author: Shahar Kun
